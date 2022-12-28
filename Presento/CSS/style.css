@@ -1,0 +1,104 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+.navbar span{
+    color: rgb(220, 59, 60);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    left: -7px;
+}
+.navbar a{
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.navbar ul{
+    gap: 31px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 129px ;
+}
+.navbar ul li a{
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+}
+.navbar ul button{
+    width: 126px;
+    height: 37px;
+    background: rgb(225, 56, 59);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.navbar ul button a{
+    font-size: 14px;
+    color:white
+}
+.lihome a{
+    color:rgb(223, 57, 59);
+}
+.navbar{
+    margin-top: 41.6px;
+    margin-left: 142.15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img{
+    background-image: url("https://bootstrapmade.com/demo/templates/Presento/assets/img/hero-bg.jpg");
+    margin-top: 20px;
+    width: 100%;
+    height: 917.5px;
+    background-size: cover;
+    position: relative;
+
+}
+.opa{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 917.5px;
+    position: relative;
+}
+.opa h1{
+    font-size: 48px;
+    color: rgba(255,255,255);
+    margin-left: 116px;
+    padding-top: 190px;
+}
+.opa h2{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-left: 116px;
+}
+.opa button{
+    width: 163px;
+    height: 49px;
+    background: rgb(225, 56, 59);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 116px;
+}
+.opa button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.opa button a{
+    font-size: 16px;
+    text-decoration: none;
+    color:white
+}
